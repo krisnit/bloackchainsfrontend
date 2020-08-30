@@ -1,0 +1,36 @@
+.searchbar {
+	position: relative;
+	width: 20rem;
+	height: 3rem;
+	margin-bottom: 2rem;
+	left: 50%;
+	transform: translateX(-10rem);
+	display: flex;
+	justify-content: center;
+}
+.searchbar input {
+	width: 13rem;
+	height: 2.5rem;
+	border: none;
+	border-bottom: 1px solid blue;
+	margin-top: 2rem;
+	position: relative;
+	background: black;
+	border-radius: 12rem;
+	color: white;
+	font-size: 1.5rem;
+	padding: 0.5rem 1rem;
+	outline: none;
+}
+
+@media (min-width: 650px) {
+	.searchbar {
+		width: 30rem;
+		height: 4rem;
+		transform: translateX(-15rem);
+	}
+	.searchbar input {
+		width: 20rem;
+		height: 3rem;
+	}
+}

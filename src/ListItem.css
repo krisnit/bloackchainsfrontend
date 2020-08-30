@@ -1,0 +1,26 @@
+.colors {
+	padding: 1.5rem;
+	width: 12rem;
+	text-align: center;
+	margin: 1rem auto;
+	box-shadow: 3px 5px rgba(0, 0, 0, 0.5);
+	font-weight: 500;
+	font-size: large;
+	list-style: none;
+	border-radius: 0rem 5rem;
+	transition: all 1s linear;
+	display: inline-block;
+	height: 1.5rem;
+}
+@media (min-width: 650px) {
+	.colors {
+		width: 15rem;
+		margin: 0.6rem 0.3rem;
+	}
+}
+
+.colors:hover {
+	filter: brightness(80%);
+	/* transform: scale(1.01); */
+	border-radius: 12rem 0rem;
+}
